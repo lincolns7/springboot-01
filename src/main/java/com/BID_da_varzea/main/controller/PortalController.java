@@ -17,4 +17,13 @@ public class PortalController {
     public String abrirPortal() {
         return "portal";
     }
+    @GetMapping ("/servicos")
+    public String servicos(){
+        return "servicos";
+    }
+    @GetMapping ("/contato")
+    public String contato() {
+        return "contato";
+    }
+    
 }
